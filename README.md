@@ -17,6 +17,6 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 6. This creates a tidy data set called tidy_data_with_averages.txt in the working directory of the R environment. This file is uploaded for review
 
-7. CodeBook.md describes the data,variables and transformation that were applied to generate the tidy data set.
+7. CodeBook.md describes the data,variables and transformations that were applied to generate the tidy data set.
 
 
