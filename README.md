@@ -1,1 +1,1 @@
-# Coursera-Getting-and-Cleaning-Data-Peer_Assessment
+# Getting and Cleaning Data Project
