@@ -19,7 +19,7 @@ X_train.txt, y_train.txt and subject_train.txt are read from the "./data/train" 
 
 X_test.txt, y_test.txt and subject_test.txt are read from the "./data/test" folder and stored  testData, testLabel and testSubject variables respectively.
 
-trainingData and testData are bound to create mergedData; trainingLabel and testLabel rre bound to create mergedLabel ; trainingSubject and testSubject arebound to create mergedSubject 
+trainingData and testData are bound to create mergedData; trainingLabel and testLabel are bound to create mergedLabel ; trainingSubject and testSubject arebound to create mergedSubject 
 
 ### Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
 
@@ -50,7 +50,7 @@ A variable, variable list is initialized with the column indices for the variabl
 A variable, meltedData is created from combinedData using the id & variable indices above
 The variable tidy_data_averages is created by casting meltedData (grouping by SubjectId & ActivityName, and calculating the mean for each of the other 66 variables)
 
-30 subjects, with 6 activities each - and 66 variables results in a data set of dimension (180 * 68) for this specific data set.  
+30 subjects, with 6 activities each - and 66 variables results in an output data set of dimension (180 * 68) for this specific source data.  
 
 The variable tidy_data_averages is written to a text file "./data/tidy_data_averages.txt" using the write.table function
 
