@@ -19,4 +19,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 7. CodeBook.md describes the data,variables and transformations that were applied to generate the tidy data set.
 
-Note : run_analysis used the melt() function from the package reshape2. 
+
